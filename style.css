@@ -1,0 +1,115 @@
+/* Colors and fonts */
+
+body {
+	background: #F3F6F9;
+	font-family: "Montserrat", sans-serif;
+	color: #00112C;
+	font-size: 14px;
+    line-height: 1.5;
+}
+
+h1, h2, h3 {
+	font-family: "Kanit", sans-serif;
+}
+
+h1 {
+	color: #252935;
+	letter-spacing: 0.1px;
+	font-size:32px ;
+	font-weight: 900;
+}
+
+h2 {
+	color: #2CAE6C;
+	font-size:20px ;
+	font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+  color: #5398DB;
+  font-size: 16px;
+  font-weight: bolder;
+  transition: color 0.3s ease;
+}
+
+
+/* Classes */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+	background: white;
+	padding: 40px;
+	margin: 30px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #5398DB;
+	color: white;
+	padding: 15px 15px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
+
+.list-inline i:hover {
+	color: black;
+}
+
+
+/* Adjustments */
+
+#intro p {
+	margin-bottom: 40px;
+}
